@@ -5,7 +5,7 @@ var mouseEvent = "empty"
 
 var ref = canvas.getContext("2d")
 color = "black"
-width = 1
+width = 10
 radius = 5
 
 canvas.addEventListener("mousedown", my_mousedown)
