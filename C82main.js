@@ -14,7 +14,7 @@ function my_mousedown(e) {
     color = document.getElementById("color").value
     width = document.getElementById("width").value
     radius = document.getElementById("radius").value
-    console.log(`Color is ${colorone}, Width is ${widthone}`)
+    console.log(`Color is ${color}, Width is ${width}`)
     mouseEvent = "mouseDown";
 }
 
