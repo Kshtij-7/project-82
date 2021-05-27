@@ -12,15 +12,15 @@ canvas.addEventListener("mousedown", my_mousedown)
 
 function my_mousedown(e) {
     color = document.getElementById("color").value
-    if(color = null){
+    if(color == ""){
         color = "black";
     }
     width = document.getElementById("width").value
-    if(width = null){
+    if(width == ""){
         width = 7;
     }
     radius = document.getElementById("radius").value
-    if(radius = null){
+    if(radius == ""){
         radius = 15;
     }
     console.log(`Color is ${color}, Width is ${width}, Radius is ${radius}`)
