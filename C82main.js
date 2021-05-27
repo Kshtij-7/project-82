@@ -5,8 +5,8 @@ var mouseEvent = "empty"
 
 var ref = canvas.getContext("2d")
 color = "black"
-width = 7
-radius = 5
+width = 4
+radius = 17
 
 canvas.addEventListener("mousedown", my_mousedown)
 
@@ -17,11 +17,11 @@ function my_mousedown(e) {
     }
     width = document.getElementById("width").value
     if(width == ""){
-        width = 7;
+        width = 4;
     }
     radius = document.getElementById("radius").value
     if(radius == ""){
-        radius = 15;
+        radius = 17;
     }
     console.log(`Color is ${color}, Width is ${width}, Radius is ${radius}`)
     mouseEvent = "mouseDown";
